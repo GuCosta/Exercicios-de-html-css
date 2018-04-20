@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>Lista de Presença</title>
+	<style>.presença{
+			color: red;
+			}
+		   .vazio{
+		   	padding: 10px;
+		   }
+		   table{
+		   	border-spacing: 0px;
+		   }
+		   td, th{
+		   	padding: 5px;
+			}
+	</style>
+</head>
+<body>
+	<table border="1">
+		<thead>
+			<tr>
+				<th colspan="7"><h1>Lista de Presença</h1></th>
+			</tr>
+
+			<tr>
+				<th>Trainee</th>
+				<th>Aula 1</th>
+				<th>Aula 2</th>
+				<th>Aula 3</th>
+				<th>Aula 4</th>
+				<th>Aula 5</th>
+				<th>Aula 6</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Aluno 1</td>
+				<td class="presença">Presente</td>
+				<td class="presença">Presente</td>
+				<td class="presença">Falta</td>
+				<td class="presença">Presente</td>
+				<td class="presença">Falta</td>
+				<td class="presença">Presente</td>
+			</tr>
+				
+			<tr>
+				<td>Aluno 2</td>
+				<td class="presença">Presente</td>
+				<td class="presença">Presente</td>
+				<td class="presença">Presente</td>
+				<td class="presença">Presente</td>
+				<td class="presença">Presente</td>
+				<td class="presença">Falta</td>
+			</tr>
+
+			<tr>
+				<td>Aluno 3</td>
+				<td class="presença">Falta</td>
+				<td class="presença">Falta</td>
+				<td class="presença">Presente</td>
+				<td class="presença">Presente</td>
+				<td class="presença">Presente</td>
+				<td class="presença">Presente</td>
+			</tr>
+
+			<tr>
+				<td>Aluno 4</td>
+				<td class="presença">Falta</td>
+				<td class="presença">Falta</td>
+				<td class="presença">Presente</td>
+				<td class="presença">Falta</td>
+				<td class="presença">Presente</td>
+				<td class="presença">Falta</td>
+			</tr>
+
+			<tr>
+				<td class="vazio" colspan="7"></td>
+			</tr>
+		</tbody>
+		<tfoot>
+				<td>Total de faltas</td>
+				<td class="presença">2</td>
+				<td class="presença">2</td>
+				<td class="presença">1</td>
+				<td class="presença">1</td>
+				<td class="presença">1</td>
+				<td class="presença">2</td>
+		</tfoot>
+	</table>
+</body>
+</html>
