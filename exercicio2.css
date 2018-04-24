@@ -1,0 +1,11 @@
+.image-resizing {
+	height: 200px;
+	width: 300px;
+}
+.table-edit{
+	border-spacing: 0px;
+	border-style: solid;
+}
+td, th{
+	padding: 15px;
+}
